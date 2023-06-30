@@ -46,7 +46,7 @@ target("systemc")
     add_defines("SC_BUILD")
     add_defines("SC_INCLUDE_FX")
 
-    set_languages("cxx17")
+    set_languages("cxx11")
 
     add_cxxflags( "-Wextra", "-Wno-unused-parameter" ,"-Wno-unused-variable",{tools={"gcc","clang"}})
     
